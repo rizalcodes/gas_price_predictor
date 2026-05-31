@@ -31,7 +31,7 @@ log = logging.getLogger(__name__)
 ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY", "Your_Etherscan_Api_Here")
 INFURA_URL        = os.getenv("INFURA_URL",        "https://mainnet.infura.io/v3/Your_Infure_Key_Here")
 TELEGRAM_TOKEN    = os.getenv("TELEGRAM_TOKEN",    "Your_Telegram_Bot_Token_Here")
-TELEGRAM_CHAT_ID  = os.getenv("TELEGRAM_CHAT_ID",  "1024188205")
+TELEGRAM_CHAT_ID  = os.getenv("TELEGRAM_CHAT_ID",  "Your_Chat_ID_Here")
 
 # Alert thresholds (Gwei)
 LOW_GAS_THRESHOLD  = 15   # alert kalau gas drop di bawah ini
